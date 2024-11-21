@@ -1,0 +1,80 @@
+
+/* Common nav Styles */
+
+.navigation-wrapper {
+    height: 90px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+/* left column Styles */
+
+.navigation-wrapper > .left-column {
+    display: flex;
+    align-items: center;
+}
+
+.navigation-wrapper > .left-column img {
+    height: 30px;
+    width: auto;
+    margin-left: 15px;
+}
+
+/* center-left-column-Styles */
+
+.navigation-wrapper > .center-left-column {
+    margin-left: 40px;
+}
+
+.navigation-wrapper > .center-left-column > .explore {
+    font-size: 0.8em;
+    color: #ddc462;
+}
+
+
+
+.navigation-wrapper > .center-left-column > .links-wrapper {
+    display: flex;
+    justify-content: space-between;
+    gap: 25px;
+    font-weight: bold;
+}
+
+
+/* center-right-column-Styles */
+
+.navigation-wrapper > .center-right-column {
+   flex: 1;
+   margin-left: 60px;
+   margin-top: 20px;
+   gap: 20px;
+   color: #acaca2;
+}
+
+/* right-column-Styles */
+
+.navigation-wrapper >.right-column  {
+    display: flex;
+    justify-content: flex-end;
+    gap: 40px;
+    margin-right: 5px;
+}  
+
+.navigation-wrapper > .right-column > .button-navigation-wrapper {
+    background-color: #36383f;
+    color: aliceblue;
+    padding: 10px 20px;
+    border-radius: 2px;
+}
+
+.navigation-wrapper > .right-column > .button-navigation-wrapper i {
+    color: #4bce79;
+}
+.navigation-wrapper > .right-column > .search-icon {
+    color:#36383f ;
+    font-size: 2em;
+}

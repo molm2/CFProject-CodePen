@@ -1,0 +1,67 @@
+/* page-container styles */
+.page-container {
+    background-color: #353840;
+    color: rgb(255, 255, 255);
+    height: 570px;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: inset -500px -100px 400px rgba(0,0,0,0.5);
+}
+
+.page-container > .column-left {
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    justify-content: left;
+    padding: 20px 50px 50px 50px;
+}
+
+.page-container > .column-left > .text1 {
+    font-size: 2rem;
+}
+
+.page-container > .column-left > .text2 {
+    font-size: 1.7rem;
+    color: #acaca2;
+}
+
+.emoji {
+    vertical-align: top;
+    position: relative;
+    top: -3px;
+}
+
+.page-container > .column-left > .buttons-text {
+    display: flex;
+    margin-top: 20px;
+    justify-content: left;
+    gap: 15px;
+    font-size: 1.8rem;
+}
+
+.page-container > .column-left > .buttons-text > .button-sign {
+    background-color: #4bce79;
+    color: black;
+    padding: 10px 25px;
+    border-radius: 2px;   
+}
+
+.page-container > .column-left > .buttons-text > .button-learn {
+    background-color: black;
+    color: white;
+    padding: 10px 25px;
+    border-radius: 2px;  
+}
+
+.page-container > .column-right {
+    display: flex;
+    flex-direction: column;
+    padding: 20px 0px 0px 0px;
+    width: 600px;
+}
+
+.page-container > .column-right img {
+    width: 600px;
+}
+
+

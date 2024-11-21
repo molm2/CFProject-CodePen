@@ -1,0 +1,23 @@
+/* footer styles */
+.footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    text-align: center;
+}
+
+.footer > .option {
+    background-color: #353840;
+    color: white;
+    border-inline: none;
+    border-right:solid;
+    border-top: solid;
+    border-bottom: solid;
+    padding: 20px 0px;
+    font-weight: bold;
+}
+
+.bottom {
+    height: 100px;
+    background-color: #101216;
+}
+ 
